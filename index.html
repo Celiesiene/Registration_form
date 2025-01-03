@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Registracija į Bebrų klubą</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registracija į bebrų klubą</h1>
+    <form id="registrationForm" novalidate>
+        <label for="name">Vardas:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <span id="nameError" class="error"></span><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <span id="emailError" class="error"></span><br><br>
+
+        <label for="age">Amžius:</label><br>
+        <input type="number" id="age" name="age"><br>
+        <span id="ageError" class="error"></span><br><br>
+
+        <label for="phone">Telefono numeris:</label><br>
+        <p>(Pvz. +XXX XXX XXXXX)</p>
+        <input type="text" id="phone" name="phone"><br>
+        <span id="phoneError" class="error"></span><br><br>
+
+        <label for="password">Slaptažodis:</label><br>
+        <p>(Slaptažodį turi sudaryti mažiausiai 8 simboliai,<br> bent viena didžioji raidė, mažoji raidė, skaičius <br> ir specialusis simbolis.)</p>
+        <input type="password" id="password" name="password"><br>
+        <span id="passwordError" class="error"></span><br><br>
+
+        <label for="confirmPassword">Pakartoti slaptažodį:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword"><br>
+        <span id="confirmPasswordError" class="error"></span><br><br><br>
+
+        <button type="submit">Registruotis</button>
+    </form>
+
+    <div id="successMessage" class="success"></div>
+
+
+</body>
+</html>
