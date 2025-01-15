@@ -65,5 +65,8 @@ button:hover{
 
 .error {
 color: red;
+background-color: black;
+padding: 2px;
+border-radius: 5px;
 }
 
